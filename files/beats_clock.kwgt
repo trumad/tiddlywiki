@@ -1,0 +1,40 @@
+{
+  "backup_1": {
+    "globals": {},
+    "items": [
+      {
+        "type": "text",
+        "text": "$(floor((((tf(MM) * 60) + tf(ss) + ((tf(HH) + 1) * 3600) % 86400) / 86.4))$",
+        "font": "Roboto",
+        "size": 24,
+        "color": "#FFFFFFFF",
+        "position": [
+          0,
+          0
+        ],
+        "align": "center",
+        "shadow": {
+          "color": "#00000000",
+          "blur": 0,
+          "x": 0,
+          "y": 0
+        },
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "width": 200,
+        "height": 50,
+        "rotation": 0,
+        "gravity": "center"
+      }
+    ],
+    "config_version": 16,
+    "kwgt_version": "3.57",
+    "kwgt_options": {
+      "lock_globals": false
+    }
+  }
+}
